@@ -23,7 +23,6 @@ router.post('/', function (req, res, next) {
 		title: req.body.title,
 		content: req.body.content,
 		tags: req.body.tags.split(" ")
-		// name: req.body.author
 	});
 	console.log(req.body.tags);
 
